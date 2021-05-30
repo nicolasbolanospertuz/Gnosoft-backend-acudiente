@@ -1,0 +1,22 @@
+{
+  "name": "gnosoft-backend-acudiente",
+  "version": "1.0.0",
+  "description": "BackEnd en Node.js para gnosoft acudiente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasbolanospertuz/Gnosoft-backend-acudiente.git"
+  },
+  "author": "Nicolás Bolaños",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasbolanospertuz/Gnosoft-backend-acudiente/issues"
+  },
+  "homepage": "https://github.com/nicolasbolanospertuz/Gnosoft-backend-acudiente#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
