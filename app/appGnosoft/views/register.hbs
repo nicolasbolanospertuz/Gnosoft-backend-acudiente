@@ -42,28 +42,32 @@
   <nav class="nav nav-masthead justify-content-center">
            <a class="nav-link active" aria-current="page" href="/">Home</a>
         </nav>
-  <form action="/register" method="POST">
+  <form action="/acudiente/register" method="POST">
     <img class="mb-4" src="https://web.gnosoft.com.co/wp-content/uploads/2020/08/academico-icon.png" >
     <h1 class="h3 mb-3 fw-normal text-white">Please Register</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+      <input type="text" class="form-control" id="floatingInput" name="name" placeholder="Name">
       <label for="floatingInput">Name</label>
     </div>
      <div class="form-floating">
-      <input type="text" class="form-control" id="floatingInput" placeholder="Last Name">
+      <input type="text" class="form-control" id="floatingInput" name="last_name" placeholder="Last Name">
       <label for="floatingInput">Last Name</label>
     </div>
      <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com">
       <label for="floatingInput">Email</label>
     </div>
+     <div class="form-floating">
+      <input type="tel" class="form-control" id="floatingInput" name="phone" placeholder="+1 300-2458796">
+      <label for="floatingInput">Phone</label>
+    </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder=" Confirm Password">
+      <input type="password" class="form-control" id="floatingPassword" name="confirm_password" placeholder=" Confirm Password">
       <label for="floatingPassword">Confirm Password</label>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
